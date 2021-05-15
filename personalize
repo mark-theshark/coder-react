@@ -118,7 +118,7 @@ if [ -d $REPO_1_PATH ]; then
     echo "do build / install dependencies with NPM"
     $NPM_INSTALL_COMMAND
     #echo "start React app"
-    $NPM_START_COMMAND
+    #$NPM_START_COMMAND
 fi
 
 echo "install fish shell"
