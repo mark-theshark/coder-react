@@ -1,0 +1,42 @@
+version: 0.1
+workspace:
+  type: "kubernetes"
+  spec:
+    image: index.docker.io/codercom/enterprise-node:ubuntu
+    container-based-vm: false
+    cpu: 2
+    memory: 2 
+    disk: 10
+    labels:
+      com.coder.custom.node.version: "14.17" 
+      com.coder.custom.chargeback: "team_09b"
+  configure:
+    start:
+      - name: set ssh keys and clone and build (dependencies) for node react project
+        directory: /home/coder/
+        shell: /bin/bash
+        command: |
+          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+          REPO_1_PATH=$HOME/coder-react
+          if [ -d $REPO_1_PATH ]; then
+            echo 'node react repo already exists - skip clone'
+          else
+            git clone git@github.com:mtm20176/coder-react.git 
+          fi    
+          cd $REPO_1_PATH
+          npm install        
+      - name: install fzf fuzzy find
+        directory: /home/coder/
+        shell: /bin/bash
+        command: |
+          sudo apt update
+          sudo apt install fzf
+      - name: install vim editor
+        directory: /home/coder/
+        shell: /bin/bash
+        command: sudo apt install vim              
+  devURLs:
+    - name: nodeapp
+      port: 3000
+      scheme: http
+      access: org
