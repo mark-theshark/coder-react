@@ -6,6 +6,9 @@
 ###### demo.cdr.dev (workspace configuration-as-code)
 [![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo.cdr.dev/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
+###### stable.cdr.dev (workspace configuration-as-code)
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://stable.cdr.dev/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
+
 ###### Config
 
 * yarn && yarn start
