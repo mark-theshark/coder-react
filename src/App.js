@@ -10,8 +10,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>
-        Developer (Dev) URLs allow you to access and share what you're developing in your Coder workspace.
-        </p>              
+        This is a Dev URL.
+        </p>   
+        <p>
+        It listens for a running app on a specific port, and allows engineers to share their running app as they change it.
+        </p>   
+        <p>
+        For example, make a feature change, commit the branch, and open a Pull Request (PR) with the Dev URL to review the change.
+        </p>                          
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
