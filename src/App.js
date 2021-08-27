@@ -16,7 +16,7 @@ function App() {
         It listens for a running app on a specific port, and allows engineers to share their running app as they change it.
         </p>   
         <p>
-        For example, make a feature change, commit the branch, and open a Pull Request (PR) with the Dev URL to review the change.
+        e.g., make a feature change, commit the branch, and open a Pull Request (PR) with the Dev URL - your team reviews the change running in your workspace.
         </p>                          
         <p>
           Edit <code>src/App.js</code> and save to reload.
