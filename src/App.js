@@ -13,11 +13,8 @@ function App() {
         <span role="img" aria-labelledby="test">👋</span> This is a Dev URL.
         </p>   
         <p>
-        It listens for a running app on a specific port, and allows engineers to share their running app as they change it.
-        </p>   
-        <p>
-        e.g., make a feature change, commit the branch, and open a Pull Request (PR) with the Dev URL - your team reviews the change running in your workspace.
-        </p>                          
+        It listens for a running app on a specific port, and allows engineers to test and share their running app with peers.
+        </p>                         
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
