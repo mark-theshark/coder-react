@@ -7,7 +7,7 @@
 
 ###### workspace spec in template
 
-* 2 CPUs | 4 GB RAM | 10 GM persistent volume claim storage
+* 2 CPUs | 4 GB RAM | 10 GB persistent volume claim storage
 
 ###### npm install is in template - to run the node server from repo directory:
 
