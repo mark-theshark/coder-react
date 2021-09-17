@@ -36,7 +36,7 @@ workspace:
         - name: "build (dependencies) for node react project"
           command: |                
             cd $REPO_1_PATH
-            npm install        
+            yarn        
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
