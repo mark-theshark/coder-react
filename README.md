@@ -24,7 +24,7 @@
 
 ###### demo.cdr.dev (image)
 
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo.cdr.dev/workspaces/git?org=default&image=5ffcbd02-873d1f55d68f0909fa7bcf3b&tag=ubuntu&service=github&repo=git@github.com:mtm20176/coder-react.git)
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo.cdr.dev/workspaces/git?org=coder&image=5ffcbd02-873d1f55d68f0909fa7bcf3b&tag=ubuntu&service=github&repo=git@github.com:mtm20176/coder-react.git)
 
 ###### stable.cdr.dev (workspace template)
 [![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://stable.cdr.dev/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
