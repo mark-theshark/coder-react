@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>
-        <span role="img" aria-labelledby="test">👋</span> This is a Dev URL.
+        <span role="img" aria-labelledby="test">👋</span> Hey there ... This is a Dev URL.
         </p>   
         <p>
         It listens for a running app on a specific port, and allows engineers to test and share their running app with peers.
