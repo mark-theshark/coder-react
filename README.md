@@ -11,7 +11,7 @@
 
 ###### npm install is in template - to run the node server from repo directory:
 
-* npm start
+* yarn start or npm start
 
 ###### clean.demo.coder.com (workspace template)
 [![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
