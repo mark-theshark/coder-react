@@ -13,7 +13,9 @@ function App() {
         <span role="img" aria-labelledby="test">👋</span> Hey there ... This is a Dev URL.
         </p>   
         <p>
-        It listens for a running app on a specific port, and allows engineers to test and share their running app with peers.
+        It listens for a running app on a specific port.
+        <br/><br/><br/>
+        Good for testing, or sharing your work.
         </p>                         
         <p>
           Edit <code>src/App.js</code> and save to reload.
