@@ -32,7 +32,7 @@ workspace:
               echo 'node react repo already exists - skip clone, do fetch and reset'
               cd $REPO_1_PATH
               git fetch --all
-              git reset --hard origin/master
+              git reset --hard origin/main
             else
               git clone git@github.com:mtm20176/coder-react.git 
             fi
