@@ -29,7 +29,9 @@ workspace:
           command: |
             REPO_1_PATH=$HOME/coder-react
             if [ -d $REPO_1_PATH ]; then
-              echo 'node react repo already exists - skip clone'
+              echo 'node react repo already exists - skip clone, do fetch and reset'
+              git fetch --all
+              git reset --hard origin/master
             else
               git clone git@github.com:mtm20176/coder-react.git 
             fi
