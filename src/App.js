@@ -15,7 +15,7 @@ function App() {
         <p>
         It listens for a running app on a specific port.
         <br/><br/><br/>
-        It's good for testing or sharing your work.
+        It's good for testing or sharing your work. <span role="img" aria-labelledby="test">🤝</span>
         </p>                         
         <p>
           Edit <code>src/App.js</code> and save to reload.
