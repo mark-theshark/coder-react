@@ -33,15 +33,13 @@ workspace:
               cd $REPO_1_PATH
               git fetch --all
               git reset --hard origin/main
+              yarn
             else
               echo 'node react repo DOES NOT exists, git clone'
               git clone git@github.com:mtm20176/coder-react.git 
-            fi
-        - name: "build (dependencies) for node react project"
-          command: | 
-            echo 'fetch dependencies and build with yarn'               
-            cd $REPO_1_PATH
-            yarn        
+              cd $REPO_1_PATH
+              yarn
+            fi       
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
