@@ -47,15 +47,13 @@ workspace:
             continue-on-error: true
             if [ -f "/etc/arch-release" ]; then
               echo "Arch Linux"
-              sudo pacman -S fzf --noconfirm
               sudo pacman -S vim --noconfirm
-              echo 'installed fzf and nim'
+              echo 'installed vim'
             elif [ -f "/etc/lsb-release" ]; then
               echo "Ubuntu" 
               sudo apt update
-              sudo apt install fzf
               sudo apt install vim
-              echo 'installed fzf and nim'
+              echo 'installed vim'
             fi              
   dev-urls:
     value:
