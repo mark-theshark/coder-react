@@ -39,15 +39,10 @@ files with either the `.yaml` or `.yml` extension.
 ##### from template
 
 ###### clean.demo.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-
 [![Open in Coder](https://clean.demo.coder.com/static/image/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=625ff6b7-9e0fbb71f34a2ed66ae5a2e5&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
-###### demo-2.cdr.dev
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-
 ###### mark.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=github&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
+[![Open in Coder](https://mark.coder.com/static/image/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=61277737-71f454b243f979e75ab79d9a&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 </details>
 
 <details>
@@ -68,13 +63,11 @@ files with either the `.yaml` or `.yml` extension.
 ##### from template
 
 ###### clean.demo.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=gitlab&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
+[![Open in Coder](https://clean.demo.coder.com/static/image/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=625ff6b7-9e0fbb71f34a2ed66ae5a2e5&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
-###### demo-2.cdr.dev
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/wac/build?template_oauth_service=gitlab&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
 ###### mark.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=gitlab&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
+[![Open in Coder](https://mark.coder.com/static/image/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=61277737-71f454b243f979e75ab79d9a&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
 
 
 
