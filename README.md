@@ -20,10 +20,6 @@ files with either the `.yaml` or `.yml` extension.
 
 > A Coder workspace is an isolated pod and inner container managed by the Coder control plane running in a namespace of a Kubernetes cluster. The Coder deployments below are running on GCP GKE.
 
-
-<details>
-  <summary>GitHub</summary>
-
 ##### from image
 
 ###### clean.demo.coder.com
@@ -32,52 +28,8 @@ files with either the `.yaml` or `.yml` extension.
 ###### demo-2.cdr.dev
 [![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/workspaces/git?org=coder&image=5ffcbd02-873d1f55d68f0909fa7bcf3b&tag=ubuntu&service=github&repo=git@github.com:mtm20176/coder-react.git)
 
-###### mark.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/workspaces/git?org=default&image=612775ba-709ca7f8ad90dc53de27129a&tag=ubuntu&service=github&repo=git@github.com:mtm20176/coder-react.git)
-
 
 ##### from template
 
 ###### clean.demo.coder.com
 [![Open in Coder](https://clean.demo.coder.com/static/image/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=625ff6b7-9e0fbb71f34a2ed66ae5a2e5&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-
-###### mark.coder.com
-[![Open in Coder](https://mark.coder.com/static/image/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=61277737-71f454b243f979e75ab79d9a&template_url=git@github.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-</details>
-
-<details>
-  <summary>GitLab</summary>
-  
-##### from image
-  
-###### clean.demo.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/workspaces/git?org=default&image=613e7962-fe3f5efcfd8ce7cb502825b6&tag=ubuntu&service=gitlab&repo=git@gitlab.com:mtm20176/coder-react.git)
-
-###### demo-2.cdr.dev
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/workspaces/git?org=coder&image=5ffcbd02-873d1f55d68f0909fa7bcf3b&tag=ubuntu&service=gitlab&repo=git@gitlab.com:mtm20176/coder-react.git)
-
-###### mark.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/workspaces/git?org=default&image=612775ba-709ca7f8ad90dc53de27129a&tag=ubuntu&service=gitlab&repo=git@gitlab.com:mtm20176/coder-react.git)
-
-
-##### from template
-
-###### clean.demo.coder.com
-[![Open in Coder](https://clean.demo.coder.com/static/image/embed-button.svg)](https://clean.demo.coder.com/wac/build?template_oauth_service=625ff6b7-9e0fbb71f34a2ed66ae5a2e5&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-
-
-###### mark.coder.com
-[![Open in Coder](https://mark.coder.com/static/image/embed-button.svg)](https://mark.coder.com/wac/build?template_oauth_service=61277737-71f454b243f979e75ab79d9a&template_url=git@gitlab.com:mtm20176/coder-react.git&template_ref=main&template_filepath=.coder/coder.yaml)
-
-
-
-
-
-
-
-
-
-
-
-
-
