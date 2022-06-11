@@ -36,7 +36,7 @@ workspace:
               yarn
             else
               echo 'node react repo DOES NOT exists, git clone'
-              git clone git@github.com:mtm20176/coder-react.git 
+              git clone git@github.com:mark-theshark/coder-react.git 
               cd $REPO_1_PATH
               yarn
             fi       
