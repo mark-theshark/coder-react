@@ -40,7 +40,7 @@ workspace:
               cd $REPO_1_PATH
               yarn  2>&1 | tee -a ~/build.log
             fi
-            echo 'start supervisord and JupyterLab'
+            echo 'start supervisord and node app'
             sudo /usr/bin/supervisord       
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
