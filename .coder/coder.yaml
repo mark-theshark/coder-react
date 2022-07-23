@@ -24,23 +24,23 @@ workspace:
       value:
         - name: "set ssh keys"
           command: |
-            ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+            ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts 2>&1 | tee -a ~/build.log
         - name: "clone node react project"
           command: |
             REPO_1_PATH=$HOME/coder-react
             if [ -d $REPO_1_PATH ]; then
               echo 'node react repo already exists - skip clone, do fetch and reset'
               cd $REPO_1_PATH
-              git fetch --all
-              git reset --hard origin/main
-              yarn
+              git fetch --all  2>&1 | tee -a ~/build.log 
+              git reset --hard origin/main  2>&1 | tee -a ~/build.log
+              yarn  2>&1 | tee -a ~/build.log
             else
               echo 'node react repo DOES NOT exists, git clone'
-              git clone git@github.com:mark-theshark/coder-react.git 
+              git clone git@github.com:mark-theshark/coder-react.git  2>&1 | tee -a ~/build.log
               cd $REPO_1_PATH
-              yarn
+              yarn  2>&1 | tee -a ~/build.log
             fi
-            yarn start &       
+            yarn start  2>&1 | tee -a ~/build.log &       
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
