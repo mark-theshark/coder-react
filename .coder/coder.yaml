@@ -4,7 +4,7 @@ workspace:
   specs:
     kubernetes:
       image:
-        value: index.docker.io/codercom/enterprise-node:ubuntu
+        value: index.docker.io/marktmilligan/node:latest
       container-based-vm:
         value: false
       cpu: 
@@ -40,7 +40,8 @@ workspace:
               cd $REPO_1_PATH
               yarn  2>&1 | tee -a ~/build.log
             fi
-            nohup yarn start  2>&1 | tee -a ~/build.log &       
+            echo 'start supervisord and JupyterLab'
+            sudo /usr/bin/supervisord       
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
