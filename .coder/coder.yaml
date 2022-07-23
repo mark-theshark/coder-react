@@ -24,7 +24,7 @@ workspace:
       value:
         - name: "set ssh keys"
           command: |
-            ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts 2>&1 | tee -a ~/build.log
+            ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts 2>&1 | tee ~/build.log
         - name: "clone node react project"
           command: |
             REPO_1_PATH=$HOME/coder-react
