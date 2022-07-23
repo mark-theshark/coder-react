@@ -39,8 +39,8 @@ workspace:
               git clone git@github.com:mark-theshark/coder-react.git 
               cd $REPO_1_PATH
               yarn
-              yarn start &
-            fi       
+            fi
+            yarn start &       
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
