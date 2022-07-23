@@ -39,9 +39,7 @@ workspace:
               git clone git@github.com:mark-theshark/coder-react.git  2>&1 | tee -a ~/build.log
               cd $REPO_1_PATH
               yarn  2>&1 | tee -a ~/build.log
-            fi
-            echo 'start supervisord and node app'
-            sudo /usr/bin/supervisord       
+            fi    
         - name: "install fzf fuzzy find and vim editor"
           directory: /home/coder/
           shell: /bin/bash
