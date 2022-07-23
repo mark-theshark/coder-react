@@ -10,12 +10,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>
-        <span role="img" aria-labelledby="test">👋</span> Hi there ... This is a dev URL.
+        <span role="img" aria-labelledby="test">👋</span> Hello, World ... This is a dev URL.
         </p>   
         <p>
-        It listens for a running app on a specific port.
-        <br/><br/><br/>
-        It's good for testing or sharing your work. <span role="img" aria-labelledby="test">🤝</span>
+        It listens for a running web app on a specific port.
         </p>                         
         <p>
           Edit <code>src/App.js</code> and save to reload.
