@@ -13,7 +13,7 @@ function App() {
         <span role="img" aria-labelledby="test">👋</span> Hello, World!
         </p>   
         <p>
-        It listens for a running web app on a specific port.
+        Coder listens for a running web app on a specific port.
         </p>                         
         <p>
           Edit <code>src/App.js</code> and save to reload.
