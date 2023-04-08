@@ -13,6 +13,8 @@
 
 ### Resources
 
+[Coder docs on Open in Coder](https://coder.com/docs/v2/latest/templates/open-in-coder)
+
 [Coder provider Git Auth docs](https://registry.terraform.io/providers/coder/coder/latest/docs/data-sources/git_auth)
 
 [Coder docs to configure Git Auth](https://coder.com/docs/v2/latest/admin/git-providers)
