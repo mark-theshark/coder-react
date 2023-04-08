@@ -7,7 +7,7 @@
 
 </br>
 
-[![Open in Coder](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/docker-o-i-c/workspace?param.Git%20Repo%20Url=https://github.com/sharkymark/coder-react)
+[![Open in Coder](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/docker-o-i-c/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
