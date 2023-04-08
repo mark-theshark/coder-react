@@ -11,6 +11,15 @@
 
 </br>
 
+### Known things
+
+1. If `yarn start` fails, it may be you are on an older version of `node` - add this to the start script in `package.json`
+
+```sh
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
+```
+
 ### Resources
 
 [Coder docs on Open in Coder](https://coder.com/docs/v2/latest/templates/open-in-coder)
