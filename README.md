@@ -7,14 +7,17 @@
 
 </br>
 
+##### oss.demo.coder.com as a container on a VM Docker host
 [![Open in Coder oss container](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/docker-o-i-c/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
+##### oss.demo.coder.com as a Kubernetes pod
 [![Open in Coder - oss pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
+##### ae.demo.coder.com as a Kubernetes pod
 [![Open in Coder - ae pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
