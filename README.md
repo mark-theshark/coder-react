@@ -7,7 +7,15 @@
 
 </br>
 
-[![Open in Coder](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/docker-o-i-c/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+[![Open in Coder oss container](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/docker-o-i-c/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+
+</br>
+
+[![Open in Coder - oss pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+
+</br>
+
+[![Open in Coder - ae pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
