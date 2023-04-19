@@ -18,7 +18,7 @@
 </br>
 
 ##### ae.demo.coder.com as a Kubernetes pod
-[![Open in Coder - ae pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+[![Open in Coder - ae pod](https://ae.demo.coder.com/open-in-coder.svg)](https://ae.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
