@@ -18,7 +18,7 @@
 </br>
 
 ##### Red Hat OpenShift
-[![Open in Coder - oss pod](https://v2-oss.apps.openshift.cdr.dev/open-in-coder.svg)](https://v2-oss.apps.openshift.cdr.dev/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+[![Open in Coder - oss pod](https://v2-oss.apps.openshift.cdr.dev/open-in-coder.svg)](https://v2-oss.apps.openshift.cdr.dev/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
 
 </br>
 
