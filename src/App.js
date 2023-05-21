@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>
-        <span role="img" aria-labelledby="test">👋</span> Hello, World!
+        <span role="img" aria-labelledby="test">👋</span> Hello, <i>Remote</i> World!
         </p>   
         <p>
         Coder listens for a running web app on a specific port.
