@@ -8,22 +8,13 @@
 </br>
 
 ##### coder-oss.demo.coder.com as a Kubernetes pod
-[![Open in Coder - ae pod](https://coder-oss.demo.coder.com/open-in-coder.svg)](https://coder-oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+
+[![Open in Coder](https://coder-oss.demo.coder.com/open-in-coder.svg)](https://coder-oss.demo.coder.com/templates/pod-with-code-server/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Container+Image=codercom%2Fenterprise-node%3Aubuntu&param.Source+Code+Repository+%28optional%29=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
 
 </br>
 
 ##### eks-v2.demo.coder.com as a Kubernetes pod
-[![Open in Coder - ae pod](https://eks-v2.demo.coder.com/open-in-coder.svg)](https://eks-v2.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
-
-</br>
-
-##### oss.demo.coder.com as a Kubernetes pod
-[![Open in Coder - oss pod](https://oss.demo.coder.com/open-in-coder.svg)](https://oss.demo.coder.com/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
-
-</br>
-
-##### Red Hat OpenShift
-[![Open in Coder - oss pod](https://v2-oss.apps.openshift.cdr.dev/open-in-coder.svg)](https://v2-oss.apps.openshift.cdr.dev/templates/pod-node-oic/workspace?param.Git%20Repo%20URL=https://github.com/sharkymark/coder-react)
+[![Open in Coder](https://eks-v2.demo.coder.com/open-in-coder.svg)](https://eks-v2.demo.coder.com/templates/pod-with-code-server/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Container+Image=codercom%2Fenterprise-node%3Aubuntu&param.Source+Code+Repository+%28optional%29=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
 
 </br>
 
