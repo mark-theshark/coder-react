@@ -3,18 +3,18 @@
 ### Instructions
 
 1. Click Open in Coder
-1. Authenticate into Coder and a Node.JS Docker workspace is built with populated parameter for the Node React repo
+1. Authenticate into Coder and a Node.js container is built with populated parameter for the Node React repo
 
 </br>
 
 ##### coder-oss.demo.coder.com as a Kubernetes pod
 
-[![Open in Coder](https://coder-oss.demo.coder.com/open-in-coder.svg)](https://coder-oss.demo.coder.com/templates/pod-with-code-server/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Container+Image=codercom%2Fenterprise-node%3Aubuntu&param.Source+Code+Repository+%28optional%29=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
+[![Open in Coder](https://coder-oss.demo.coder.com/open-in-coder.svg)](https://coder-oss.demo.coder.com/templates/pod-node/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Git+Repo+URL=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
 
 </br>
 
 ##### eks-v2.demo.coder.com as a Kubernetes pod
-[![Open in Coder](https://eks-v2.demo.coder.com/open-in-coder.svg)](https://eks-v2.demo.coder.com/templates/pod-with-code-server/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Container+Image=codercom%2Fenterprise-node%3Aubuntu&param.Source+Code+Repository+%28optional%29=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
+[![Open in Coder](https://eks-v2.demo.coder.com/open-in-coder.svg)](https://eks-v2.demo.coder.com/templates/pod-node/workspace?mode=auto&param.CPU+cores=2&param.Memory+%28__+GB%29=4&param.PVC+storage+size=10&param.Git+Repo+URL=https%3A%2F%2Fgithub.com%2Fsharkymark%2Fcoder-react&param.Dotfiles+URL+%28optional%29=)
 
 </br>
 
@@ -31,10 +31,8 @@
 
 [Coder docs on Open in Coder](https://coder.com/docs/v2/latest/templates/open-in-coder)
 
-[Coder provider Git Auth docs](https://registry.terraform.io/providers/coder/coder/latest/docs/data-sources/git_auth)
+[Container image on Docker Hub](https://hub.docker.com/repository/docker/marktmilligan/node/tags)
 
-[Coder docs to configure Git Auth](https://coder.com/docs/v2/latest/admin/git-providers)
+[Dockerfile](https://github.com/sharkymark/dockerfiles/blob/main/node/nodesource-method/Dockerfile)
 
-[GitHub docs for creating an OAuth app](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)
-
-[Terraform kreuzwerker Docker provider](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/container)
+[Coder Terraform template](https://github.com/sharkymark/v2-templates/tree/main/pod-node)
